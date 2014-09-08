@@ -1,0 +1,29 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff0099ff"
+    >
+
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="80dp"
+        android:text="NOTEPAD"
+        android:id="@+id/textView"
+        android:textSize="65dp"
+        android:layout_gravity="top" />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="406dp"
+        android:inputType="textImeMultiLine|text|textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="#fffbff00"
+        android:singleLine="false"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff0099ff"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="Subjects"
+        android:id="@+id/Subject"
+        android:onClick="onClickOpenMenu"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_alignTop="@+id/Notes"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffffd600" />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="Notepad"
+        android:background="#ffffd600"
+        android:id="@+id/Notes"
+        android:onClick="onClickOpenNotes"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignTop="@+id/Calendar"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        android:id="@+id/Calendar"
+        android:onClick="onClickOpenCalendar"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="150dp"
+        android:background="#ffffd600"
+        />
+
+
+
+    </RelativeLayout>

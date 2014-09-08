@@ -1,0 +1,50 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff0099ff"
+    >
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button4"
+        android:layout_gravity="left"
+        android:layout_weight="0.50"
+        android:background="#ffffd600"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/button5"
+        android:layout_weight=".50"
+        android:layout_gravity="right"
+        android:background="#ffffd600"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCL3"
+        android:onClick="onClickOpenSCL"
+        android:id="@+id/button3"
+        android:background="#ffffd600"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:background="#ff0099ff">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SCL3"
+        android:id="@+id/textView"
+        android:textSize="65dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Grades:"
+        android:id="@+id/textView2"
+        android:textSize="50dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="63dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Kind:"
+            android:id="@+id/textView3"
+            android:layout_weight="0.74"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Score:"
+            android:id="@+id/textView4"
+            android:layout_weight="0.21"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="66dp">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/editText3"
+            android:layout_weight="1"
+            android:autoText="false"
+            android:text="Input kind here" />
+
+        <EditText
+            android:layout_width="162dp"
+            android:layout_height="fill_parent"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:text="Input score here "
+            android:singleLine="false" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:background="#ffffd600"
+        />
+
+</LinearLayout>
